@@ -1,0 +1,16 @@
+:root {
+    --bold: 700;
+    --medium: 500;
+    --regular: 400;
+  
+    --background: #EFF6FF;
+    --base-text: #2A4A5C;
+    --fb-btn: #255A9B;
+    --in-btn: #0076B6;
+    --account-btn: #3698FB;
+    --dark-gray: #7B8A92;
+    --gray: #96A5B1;
+    --light-gray: #AFAFAF;
+    --dark-white: #EEEEEE;
+    --white: #FFFFFF;
+  }
