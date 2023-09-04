@@ -71,10 +71,7 @@ input::-webkit-search-results-decoration {
     list-style: none;
 }
 
-.btn-reset {
-    padding: 0;
-    border: none;
-    background-color: transparent;
+.btn {
     cursor: pointer;
 }
 

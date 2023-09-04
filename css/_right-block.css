@@ -47,11 +47,40 @@
 .group-btn__fb {
     text-decoration: none;
     background-color: var(--fb-btn);
+    transition: background-color .2s ease-in-out;
 }
+
 
 .group-btn__in {
     text-decoration: none;
     background-color: var(--in-btn);
+    transition: background-color .2s ease-in-out;
+}
+
+.group-btn__fb:hover {
+    background-color: var(--fb-btn-hover);
+}
+
+.group-btn__in:hover {
+    background-color: var(--in-btn-hover);
+}
+
+.group-btn__fb:focus-visible {
+    outline: none;
+    background-color: var(--fb-btn-hover);
+}
+
+.group-btn__in:focus-visible {
+    outline: none;
+    background-color: var(--in-btn-hover);
+}
+
+.group-btn__fb:active {
+    background-color: var(--fb-btn-active);
+}
+
+.group-btn__in:active {
+    background-color: var(--in-btn-active);
 }
 
 .or {
@@ -104,7 +133,17 @@
     width: 45%;
     height: 40px;
     padding: 10px;
+    outline: none;
     border: 1px solid var(--dark-white);
+    transition: border-left .2s ease-in-out;
+}
+
+.registration-form__input:hover {
+    border-left: 2px solid var(--account-btn);
+}
+
+.registration-form__input:focus {
+    border-left: 2px solid var(--account-btn);
 }
 
 .registration-form__input::placeholder {
@@ -168,6 +207,10 @@
     transition: border 0.2s ease-in-out;
 }
 
+.investor-select__radio-custom:hover .investor-select__text::before{
+    border: 1px solid var(--radio-hover);
+}
+
 .investor-select__input:checked + .investor-select__text::before {
     border: 3px solid var(--account-btn);
 }
@@ -180,6 +223,10 @@
 
 .registration-form__checkbox {
     margin-right: 5px;
+}
+
+.license-text--mobile {
+    display: none;
 }
 
 .registration-form__license {
@@ -204,4 +251,17 @@
     border: none;
     border-radius: 5px;
     background-color: var(--account-btn);
+    transition: background-color .2s ease-in-out;
+}
+
+.registration-form__btn:hover {
+    background-color: var(--account-btn-hover);
+}
+
+.registration-form__btn:focus-visible {
+    background-color: var(--account-btn-hover);
+}
+
+.registration-form__btn:active {
+    background-color: var(--account-btn-active);
 }
